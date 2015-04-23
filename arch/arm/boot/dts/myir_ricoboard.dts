@@ -793,8 +793,8 @@
 		interrupt-parent = <&gpio3>;
 		interrupts = <22 0>;
 
-		polling_mode = <0>;
-	    multi_touch = <0>;
+		polling_mode = /bits/ 8 <0>;
+	    multi_touch = /bits/ 8 <0>;
    	    attb-gpio = <&gpio3 22 GPIO_ACTIVE_HIGH>;
 	};	
 
